@@ -1,2 +1,1 @@
-# prog-intro
-Introduksjonskurs i programmering
+# Introduksjonskurs i programmering
