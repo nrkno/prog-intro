@@ -36,4 +36,4 @@
 * Lag et nytt program `alder.py` som skriver ut `Min alder: 29` (bytt ut 29 med din egentlige alder), basert på dokumentasjonen av `print`, finner du to ulike måter å gjøre det på?
 * Utforsk mer av [python.org](https://python.org)
 * Hvis du hadde uendelig programmeringskunnskap, hva ville du ha laget?
-* Om du har tid til flere oppgaver - prøv deg på [oppgavene](https://trix.ifi.uio.no/course/8?tags=uke1%2C-utfordring) fra grunnkurset i programmering på IFI ved universitetet.
+* Om du har tid til flere oppgaver - prøv deg på [noen oppgaver](https://trix.ifi.uio.no/course/8?tags=uke1%2C-utfordring) fra grunnkurset i programmering på IFI ved universitetet. (De siste oppgavene er om ting vi ikke har gjennomgått enda, men det er lov å prøve seg på de også)
