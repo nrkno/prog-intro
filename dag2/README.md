@@ -33,3 +33,9 @@ Heltall og desimaltall (integers og floats)
 Kan legge til, trekke fra, multiplisere og dele.
 
 Oppgave: «Try it yourself» på side 29 i boka.
+
+## Kommentarer
+
+Kan skrive kommentarer, notater e.l.
+Python ignorerer kommentarer.
+Kan benyttes for å forklare koden, hva den skal gjøre og hvordan det gjøres
