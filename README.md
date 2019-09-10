@@ -8,7 +8,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk og å jobbe
 | Tema | Beskrivelse | Tidspunkt | Rom | Kursholdere |
 |------|-------------|-----------|-----|-------------|
 | Getting started | [dag1](dag1) | Torsdag 05.09 09-11 | Klasserom 1 | Einar og Heidi |
-| Variables & simple data types | | Tirsdag 10.09 13-15 | Klasserom 1 | Einar og Per Edvard |
+| Variables & simple data types | [dag2](dag2) | Tirsdag 10.09 13-15 | Klasserom 1 | Einar og Per Edvard |
 | Introducing lists | | Tirsdag 24.09 13-15 | Sommer | Per Edvard og Bjørn Eirik |
 | Working with lists | | Tirsdag 08.10 13-15 | Klasserom 2 | Bjørn Eirik og Stian |
 | If statements | | Tirsdag 15.10 13-15 | Embla | Stian og Kristoffer |
