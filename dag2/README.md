@@ -12,7 +12,7 @@
 
 Holder på eller refererer til en bestemt verdi
 
-message = ‘’Hello world!’’
+message = "Hello world!"
 print(message)
 
 Oppgave: «Try it yourself» på side 19 i boka.
@@ -21,8 +21,8 @@ Oppgave: «Try it yourself» på side 19 i boka.
 
 En serie med tegn.
 
-‘’Dette er en streng’’
-‘’Dette er også en streng’’
+"Dette er en streng"
+"Dette er også en streng"
 
 Oppgave: «Try it yourself» på side 25 i boka.
 
