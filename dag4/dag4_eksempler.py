@@ -97,3 +97,20 @@ vennepizza.append("Vegetar")
 print(f"Den orginale listen inneholder {pizzas} \nDen nye listen inneholder {vennepizza}")
 
 #Fasit på resten av oppgavene kommer så snart jeg og boka er på samme sted igjen. 
+
+#Dette er en tuple
+basic_foods = ('eggs', 'more eggs', 'omelette', 'scrambled eggs', 'poached eggs')
+#Du kan gå gjennom den på samme måte som en liste
+for food_item in basic_foods: 
+    print(f"{food_item.title()} is a basic type of food")
+
+#Men du kan ikke endre på elementer i lista, ei heller legge til elementer. 
+#basic_foods[0] = 'not eggs'
+#Hvis du kjører ^ denne får du feilen: "TypeError: 'tuple' object does not support item assignment"
+#basic_foods.append('not eggs')
+#Append() funksjonen finnes kun for lister. Prøver du den på en tuple, får du: "AttributeError: 'tuple' object has no attribute 'append'"
+
+#Hvis du vil endre tuplen din, må du definere hele greia på nytt
+basic_foods = ('not eggs', 'also not eggs', 'omelette', 'scrambled eggs', 'poached eggs')
+for food_item in basic_foods: 
+    print(f"{food_item.title()} is a basic type of food")
