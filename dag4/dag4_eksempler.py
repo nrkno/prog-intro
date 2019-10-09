@@ -96,8 +96,6 @@ vennepizza = pizzas
 vennepizza.append("Vegetar")
 print(f"Den orginale listen inneholder {pizzas} \nDen nye listen inneholder {vennepizza}")
 
-#Fasit på resten av oppgavene kommer så snart jeg og boka er på samme sted igjen. 
-
 #Dette er en tuple
 basic_foods = ('eggs', 'more eggs', 'omelette', 'scrambled eggs', 'poached eggs')
 #Du kan gå gjennom den på samme måte som en liste
