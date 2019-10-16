@@ -154,6 +154,17 @@ for new_user in new_users:  #For hver nye bruker i lista,
 for i in range(0,len(usernames)):
     usernames[i] = usernames[i].lower()
 
+#Engelskse ordinaler (5-11)
+tall = list(range(1,10))
+for t in tall:
+    if t == 1:      #Håndter spesialtilfellene
+        print("1st")
+    elif t == 2:
+        print("2nd")
+    elif t == 3:
+        print("3rd")
+    else:
+        print(f"{t}th") #Alle andre har ending -th
 ##################################################
 
 #Finn hvilken indeks et objekt ligger på
