@@ -11,7 +11,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk og å jobbe
 | Variables & simple data types | [dag2](dag2) | Tirsdag 10.09 13-15 | Klasserom 1 | Einar og Per Edvard |
 | Introducing lists | [dag3](dag3) | Tirsdag 24.09 13-15 | Sommer | Per Edvard og Bjørn Eirik |
 | Working with lists | [dag4](dag4) | Tirsdag 08.10 13-15 | Klasserom 2 | Bjørn Eirik og Stian |
-| If statements | | Tirsdag 15.10 13-15 | Embla | Stian og Kristoffer |
+| If statements | [dag5](dag5) | Tirsdag 15.10 13-15 | Embla | Stian og Kristoffer |
 | Dictionaries | | Tirsdag 22.10 13-15 | Klasserom 2 | Kristoffer og Heidi |
 | User input/while loops | | Tirsdag 29.10 13-15 | Klasserom 2 | Heidi og Bjørn Eirik |
 | Functions | | Tirsdag 05.11 13-15 | Trym | Einar og Per Edvard | 
