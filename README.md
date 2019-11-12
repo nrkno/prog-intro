@@ -14,4 +14,4 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk og å jobbe
 | If statements | [dag5](dag5) | Tirsdag 15.10 13-15 | Embla | Bjørn Eirik og Kristoffer |
 | Dictionaries | [dag6](dag6)| Tirsdag 22.10 13-15 | Klasserom 2 | Kristoffer og Heidi |
 | User input/while loops | [dag7](dag7) | Tirsdag 05.11 13-15 | Sommer | Heidi og Stian |
-| Functions | | Tirsdag 12.11 13-15 | Embla | Einar og Bjørn Eirik | 
+| Functions | [dag8](dag8) | Tirsdag 12.11 13-15 | Embla | Einar og Bjørn Eirik | 
