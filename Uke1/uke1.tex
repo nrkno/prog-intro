@@ -1,0 +1,71 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage[T1]{fontenc,url}
+\usepackage{textcomp, mathpple, esint, listings}
+\usepackage{wasysym, graphicx, gensymb}
+\usepackage{cases, color} %, tabular}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{fancyvrb, pifont}
+
+\DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\small}
+\DefineVerbatimEnvironment{comment}{Verbatim}{fontsize=\small}
+\DefineVerbatimEnvironment{example}{Verbatim}{fontsize=\small}
+
+\newcommand{\tema}[1]{\textbf{Tema: }\textit{#1}\\}
+\newcommand{\navn}[1]{\textbf{Navn: }\texttt{#1}\\}
+
+\title{Oppgaver til uke 1 \\ Installering og print}
+\date{}
+\author{NRK}
+
+\begin{document}
+
+\maketitle
+\noindent
+
+\subsection*{Installasjon}
+\begin{itemize}
+    \item Installere Python 3.7 fra https://www.python.org/downloads/.
+    \item Installere Visual Studio Code fra https://code.visualstudio.com/.
+    \item Installere Python extension i VSCode.
+\end{itemize}
+
+
+\subsection*{Oppgave 1}
+\begin{enumerate}
+    \item Lag en fil i VSCode som du kaller for \textit{hallo.py}
+    \item Skriv \texttt{print("Hallo python!")} i filen.
+    \item Lagre
+    \item Kjør programmet. Sjekk at det printes ut.
+\end{enumerate}
+
+
+\subsection*{Oppgave 2}
+Hva blir printet ut? Hvorfor blir det printet ut?
+
+\begin{verbatim}
+print("5 + 6")
+
+print(5 + 6)
+\end{verbatim}
+
+
+\subsection*{Oppgave 3}
+Finn dokumentasjonen til print på python.org 
+
+\subsection*{Oppgave 4}
+\begin{enumerate}
+    \item Skriv ditt navn, tlf og adresse til terminal på samme linje.
+    \item Skriv ditt navn, tlf og adresse til terminal på hver sin linje.
+\end{enumerate}
+ \noindent
+\textit{Ekstra: Spesialkaraktereren \textbackslash n betyr linjeskift. Se om du kan bruke denne for å printe ut på hver sin linje i en print-setning.}
+
+
+
+
+\end{document}

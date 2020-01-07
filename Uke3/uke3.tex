@@ -1,0 +1,99 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage[T1]{fontenc,url}
+\usepackage{textcomp, mathpple, esint, listings}
+\usepackage{wasysym, graphicx, gensymb}
+\usepackage{cases, color} %, tabular}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{fancyvrb, pifont}
+\setlength\parindent{0pt}
+\DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\small}
+\DefineVerbatimEnvironment{comment}{Verbatim}{fontsize=\small}
+\DefineVerbatimEnvironment{example}{Verbatim}{fontsize=\small}
+
+\newcommand{\tema}[1]{\textbf{Tema: }\textit{#1}\\}
+\newcommand{\navn}[1]{\textbf{Navn: }\texttt{#1}\\}
+
+\title{Oppgaver til uke 3 \\ Lister}
+\author{NRK}
+\date{}
+
+
+\begin{document}
+
+\maketitle
+\noindent
+
+\subsection*{Oppgave 1}
+\begin{verbatim}
+liste = [0]
+
+liste1 = [1, 2, 3]
+
+liste2 = [4, 4, 5, 4]
+
+liste3 = [“Kristoffer”, “Bjørn Eirik”, “Heidi”, “Per Edvard”, "Einar", “Malin”]
+
+liste4 = [“lister er lure å ha”]
+
+liste5 = []  
+\end{verbatim}
+Det anbefales å tegne opp lista og printe for hvert steg og se om du har forstått det riktig.
+\begin{enumerate}
+    \item Hvor mange elementer har hver liste?
+    \item Hvordan kan man printe ut en hel liste? Print ut hele \texttt{liste3}
+    \item Hvordan ville du ha printet ut kun \texttt{Heidi} fra \texttt{liste3}?
+    \item Hvordan kan du hente ut \texttt{Malin} fra  \texttt{liste3} på to forskjellige måter?
+    \item Hvordan kunne du ha lagt til \texttt{Thor Gjermund} på slutten av lista? Og hvordan ville du ha gjort det i starten av lista?
+    \item Fjern det første elementet i lista
+    \item Erstatt \texttt{Bjørn Eirik} med \texttt{Stian}.
+    \item Sorter lista alfabetisk ved å bruke \texttt{sort()}.
+    \item Finn ut av hvilken indeks \texttt{Heidi} har i lista.
+    \item Sorter lista i reversert alfabetisk med \texttt{sort()}
+    \item Print ut lengden til lista
+\end{enumerate}
+
+\subsection*{Oppgave 2}
+Hva er forskjellen mellom \texttt{sort()} og \texttt{sorted()}? Hvordan vil følgende liste se ut?
+
+\begin{verbatim}
+    serier_original = [“skam”, “heimebane”, “exit”]
+    print(serier_original.sort())
+    print(serier_original)
+\end{verbatim}
+\noindent
+Hvordan vil følgende liste se ut? 
+\begin{verbatim}
+    serier_original = [“skam”, “heimebane”, “exit”]
+    print(serier_original.sorted())
+    print(serier_original)
+\end{verbatim}
+
+
+\subsection*{Oppgave 3}
+
+Gitt at vi har følgende lister:
+\begin{verbatim}
+    serier = [“skam”, “heimebane”, “exit”]
+    filmer = ["kongens nei", "the imitation game", "den 12. mann"]
+\end{verbatim}
+
+Vi lager så en liste som inneholder begge de to listene.
+
+\begin{verbatim}
+    nrktv = [serier, filmer]
+\end{verbatim}
+
+\begin{enumerate}
+    \item Tegn opp hvordan denne lista ser ut.
+    \item Hvordan kan du få tak i \texttt{heimebane}?
+    \item Hvordan kan du få tak i \texttt{den 12. mann}?
+\end{enumerate}
+
+
+
+\end{document}
