@@ -18,7 +18,7 @@
 \newcommand{\tema}[1]{\textbf{Tema: }\textit{#1}\\}
 \newcommand{\navn}[1]{\textbf{Navn: }\texttt{#1}\\}
 
-\title{Oppgaver til uke 3 \\ Lister}
+\title{Oppgaver til uke 5 \\ If-setninger}
 \author{NRK}
 \date{}
 
@@ -29,10 +29,113 @@
 \noindent
 
 \subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
+Anta at du har en variabel \texttt{alder}.
+
+Lag en if-setning som printer ut følgende dersom alder er lik eller større enn 18;
+\begin{verbatim}
+Du er myndig
+\end{verbatim}
+
+og printer ut følgende dersom alder ikke er det;
+\begin{verbatim}
+Du er ikke myndig
+\end{verbatim}
+
+Test programmet ved å sette verdien til alder til 13, 18 og 23 og sjekk at den gir ut riktig resultat.
+
+\subsection*{Oppgave 2}
+
+\begin{verbatim}
+tall1 = 4
+tall2 = 4
+
+if tall1 > tall2:
+ print(f"{tall1} er storre enn {tall2}")
+else:
+ print(f"{tall2} er storre enn {tall1}")
+ \end{verbatim}
+ 
+ \begin{enumerate}
+ \item Hva vil skrives ut?
+ \item Utvid og endre på koden slik at den vil skrive ut for like tall.
+ \end{enumerate}
+ 
+
+
+\subsection*{Oppgave 3}
+Hva evalueres de ulike uttrykkene til?
+\begin{enumerate}
+\item 
+\begin{verbatim}
+True
+False
+True and True
+True and False
+True or True
+True or False	
+False or False
+not True 
+not False
+True and not True
+True and not False
+not True or not False
+\end{verbatim}
+
+\item
+\begin{verbatim}
+3>3 
+3>=3
+3<3 
+3<=3
+3==3
+3!=3
+\end{verbatim}
+\end{enumerate}
+
+\subsection*{Oppgave 4}
+Du skal skrive ut pris for bussbillett til reisende. Dersom du er under 16 \textit{eller} over 65 får du halv pris. Du skal bruke følgende variabel:
+
+\begin{verbatim}
+standard_pris = 50
+\end{verbatim}
+
+Lag en variabel \texttt{alder} og bruk denne for å print ut hvor mye vedkommende skal betale.
+
+\subsection*{Oppgave 5}
+Anta at du har en liste med følgende verdier:
+
+\begin{verbatim}
+liste = [34, 2, 24, 4, 23, 45, 5, 7, 35, 3]
+\end{verbatim}
+I tillegg så har du en maksverdi
+\begin{verbatim}
+maksverdi = 10
+\end{verbatim}
+
+Ved å bruke en for-løkke og en if-setning, print ut alle tall som er mindre enn \texttt{maksverdi}.
+
+Eksempel på print med \texttt{liste} og \texttt{maksverdi} med gitte verdier:
+\begin{verbatim}
+2
+4
+5
+7
+3
+\end{verbatim}
+
+\subsection*{Oppgave 6}
+Anta at du har en liste med følgende verdier:
+
+\begin{verbatim}
+liste = [-34, 2, -24, 4, 23, -45, 5, 7, 35, 3]
+\end{verbatim}
+
+\begin{enumerate}
+\item Bruk en for-løkke og en if-setning for å finne den minste verdien og skriv den ut. Du skal ikke bruke Python sin innebygde \texttt{min}-funksjon.
+\item Gjør det samme for den største verdien.
+\item Summer alle tallene i listen og print ut.
+\end{enumerate}
+
 \subsection*{Oppgave 1}
 
 \end{document}
