@@ -29,10 +29,38 @@
 \noindent
 
 \subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
-\subsection*{Oppgave 1}
+Dette er en forenklet versjon av hvordan programmet Lindmo er representert fra et av NRK TV sine API-er.
+\begin{verbatim}
+lindmo = {
+	    "id": "abe0f2e1ef19ab6e150cabfd46377a58",
+	    "title": "Lindmo",
+	    "subtitle": "Norsk talkshow"
+	    "category": "underholdning",
+}
+\end{verbatim}
+
+\begin{enumerate}
+\item Gitt en ordbok \textit{(eng: dictionary)} som \texttt{lindmo}, hvordan får man tak i og printet kategorien?
+\item Hva skjer dersom man prøver å printe ut \texttt{lindmo["seriesType"]}, dersom \texttt{seriesType} ikke fantes? Hva kunne man brukt i stedet for å unngå å få en feilmelding?
+\item Legg til en verdi for seriesTypes. I API-et er serietypen \texttt{standard}.
+\item Fjern id-feltet.
+\item Skriv ut alle feltene i ordboka
+\end{enumerate}
+
+\subsection*{Oppgave 2}
+
+\begin{enumerate}
+\item Lag en ordbok \textit{(eng: dictionary)} som heter \texttt{ansatte}.
+\item Nøkkel \textit{(eng: key)} skal være ansattnummer og verdi \textit{(eng: value)} skal være navn. For eksempel kan du legge inn \texttt{"n652508": "Malin"}.
+\item Malin skal legges inn med fullt navn, så endre verdien til ansattnummer \texttt{n652508} til å være \texttt{Malin Aandahl}
+\item Skriv inn ditt eget nummer og sjekk at du kan skrive ut både ansattnummer og navn.
+\item Print ut kun ansattnummerene.
+\item Print ut kun navn.
+\end{enumerate}
+
+
+\subsection*{Oppgave 3}
+
+Hva er forskjellen på \texttt{items()},  \texttt{keys()} og  \texttt{ values()}?
 
 \end{document}
