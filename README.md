@@ -7,7 +7,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk, og vi vil 
 
 | Tema | Beskrivelse | Tirsdag | Onsdag |
 |------|-------------|---------|--------|
-| 1. Getting started | [Dag1](Dag1) | 04.02 Møterom 2, Radio | 05.02 Embla |
+| 1. Getting started | [Uke1](Uke1) | 04.02 Møterom 2, Radio | 05.02 Embla |
 | 2. Variables & simple data types| | 11.02 Klasserom 1 | 12.02 Embla |
 | 3. Introducing lists | | 25.02 Klasserom 1 | 26.02 Embla |
 | 3. Introducing lists | | 25.02 Klasserom 1 | 26.02 Embla |
