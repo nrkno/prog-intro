@@ -10,7 +10,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk, og vi vil 
 | 1. Getting started | [Uke1](Uke1) | 04.02 Møterom 2, Radio | 05.02 Embla |
 | 2. Variables & simple data types| [Uke2](Uke2) | 11.02 Klasserom 1 | 12.02 Embla |
 | 3. Introducing lists | [Uke3](Uke3) | 25.02 Klasserom 1 | 26.02 Embla |
-| 4. Working with lists | | 03.03 Klasserom 1 | 04.03 Embla |
+| 4. Working with lists | [Uke4](Uke4) | 03.03 Klasserom 1 | 04.03 Embla |
 | Repetisjon | | 10.03 Klasserom 1 | 11.03 Embla |
 | 5. If statements| | 17.03 Klasserom 1 | 18.03 Embla | 
 | 6. Dictionaries | | 24.03 Klasserom 1 | 25.03 Embla |
