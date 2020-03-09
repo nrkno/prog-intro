@@ -30,7 +30,7 @@ Lag et program som har en variabel `tall`, og som lager en liste som inneholder 
 Om `tall`er 2, lages lista `[[]]`, om `tall` er 5, lista `[[[[[]]]]]`
 
 # Mer avanserte opppgaver
-Disse oppgavene inneholder ting vi ikke helt har lært enda, men er kanskje ikke så vanskelig for det
+Disse oppgavene inneholder ting vi ikke helt har lært enda, men de er kanskje ikke så vanskelig allikevel.
 
 ## Strenger ligner på lister
 Strenger ligner faktisk på lister, en streng er en slags liste av tegn. Det betyr at ting vi gjør med lister kan vi gjøre med strenger.
