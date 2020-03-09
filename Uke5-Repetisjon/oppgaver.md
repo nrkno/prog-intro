@@ -1,6 +1,10 @@
 # Repetisjonsoppgaver
 Disse oppgavene bruker bare ting vi allerede har gått gjennom i kurset. Men oppgavene er litt annerledes enn de fra boka, så kanskje du må jobbe litt før du finner løsningen.
 
+## Yatzy
+Lag et program med to variable, `start` og `slutt`, som finner summen av tallene fra og med `start` til og med `slutt`.
+Sjekk at programmet beregner liten straight i Yatzy (summen av 1, 2, 3, 4 og 5) til å være 15, og stor straight (summen av 2, 3, 4, 5 og 6) til å være 20.
+
 ## Sette sammen strenger fra en liste
 Lag et program som looper gjennom en liste av strenger og setter de sammen til en lang streng. 
 For eksempel skal lista `['Et', 'fint', 'hus']`gi `'Etfinthus'`.
@@ -24,6 +28,20 @@ For eksempel hvis tallet er 7, skrives det ut `[7, 7, 7, 7, 7, 7, 7]`. Test at p
 Gitt at du har to lister, en med mat, og en med antall, skriv et program som henter ut verdi fra samme indeks i de to listene og skriver ut en setning om antall mat, feks `Jeg har 5 epler`. 
 
 Hvis `mat = ["eple", "banantwist", "frossenpizza" ]`, `antall = [5, 17, 3]` skal programmet skrive ut `Jeg har 5 epler`, `Jeg har 17 banantwist`, `Jeg har 3 frossenpizza`
+
+Det er kanskje litt rart at to ting på samme plass i hver sine lister hører sammen. Lag en ny liste som består av tupler med mat og tall som hører sammen, som `('eple', 5)`. Loop gjennom lista og skriv ut samme setninger som over.
+
+## Summen av diagonalen i en kvadratisk matrise
+En kvadratisk matrise er noe som ser ut som
+```
+1 3 5
+1 4 6
+7 6 9
+```
+med like mange rader som kolonner. I kode kan vi representere en matrise som en liste av lister, der hvert element i lista er en rad i matrisen. F.eks blir matrisen over som `[[1,3,5],[1,4,6],[7,6,9]]`
+For kvadratiske matriser kan man finne summen av diagonalen (kalles trase på norsk). I eksempelet over er det summen av første tall i første rad (= 1), andre tall i andre rad ( = 4) og tredje tall i tredje rad ( = 9), som gir sum 1 + 4 + 9 = 14.
+
+Lag et program som regner ut summen av diagonalen. Prøv å lage programmet slik at det virker uavhengig av hvor stor matrisen er, så både for `[[2,0],[0,2]]` og `[[1,2,3],[4,5,6],[7,8,9]]`.
 
 ## Liste i liste i liste
 
