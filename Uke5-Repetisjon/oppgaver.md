@@ -1,4 +1,5 @@
 # Repetisjonsoppgaver
+Disse oppgavene bruker bare ting vi allerede har gått gjennom i kurset. Men oppgavene er litt annerledes enn de fra boka, så kanskje du må jobbe litt før du finner løsningen.
 
 ## Sette sammen strenger fra en liste
 Lag et program som looper gjennom en liste av strenger og setter de sammen til en lang streng. 
@@ -29,7 +30,7 @@ Hvis `mat = ["eple", "banantwist", "frossenpizza" ]`, `antall = [5, 17, 3]` skal
 Lag et program som har en variabel `tall`, og som lager en liste som inneholder `tall` tomme lister inni hverandre. 
 Om `tall`er 2, lages lista `[[]]`, om `tall` er 5, lista `[[[[[]]]]]`
 
-# Mer avanserte opppgaver
+# Videre opppgaver
 Disse oppgavene inneholder ting vi ikke helt har lært enda, men de er kanskje ikke så vanskelig allikevel.
 
 ## Strenger ligner på lister
