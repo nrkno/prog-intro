@@ -48,13 +48,20 @@ for i in liste[::-1]: # liste[::-1] er samme som liste[0:len(liste):-1]
 print(ny_liste)
 
 # Alternativ 2
-# Bruker insert med indeks, og alltid sette inn elementer først i lista
+# En annen måte å gå gjennom lista baklengs på
+ny_liste = []
+for i in range(len(liste)):
+    ny_liste.append(liste[(len(liste)-i)-1])
+print(ny_liste)
+
+# Alternativ 3
+# Bruker insert med indeks, og setter alltid inn elementer først i lista
 ny_liste = []
 for i in liste:
     ny_liste.insert(0, i)
 print(ny_liste)
 
-# Alternativ 3
+# Alternativ 4
 # Snur rekkefølgen i samme liste, men må midlertidig mellomlagre innhold i en ekstra variabel
 # merk at for-løkka bare går gjennom halve lista
 # innholdet i liste[0] byttes med liste[len(liste) - 1]
