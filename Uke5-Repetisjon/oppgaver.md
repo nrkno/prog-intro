@@ -31,6 +31,16 @@ Hvis `mat = ["eple", "banantwist", "frossenpizza" ]`, `antall = [5, 17, 3]` skal
 
 Det er kanskje litt rart at to ting på samme plass i hver sine lister hører sammen. Lag en ny liste som består av tupler med mat og tall som hører sammen, som `('eple', 5)`. Loop gjennom lista og skriv ut samme setninger som over.
 
+## Ut med kjedisene
+Lånt fra [http://introtopython.org/](http://introtopython.org/lists_tuples.html#Exercises-lists)
+
+Lag en liste som inneholder navn på fire kjendiser.
+Fjern kjendisene ved å bruke de fire ulike måtene å fjerne fra liste som vi har lært:
+* `del` 
+* `.pop()`
+* `.pop()` med indeks
+* `.remove()` med navn
+
 ## Summen av diagonalen i en kvadratisk matrise
 En kvadratisk matrise er noe som ser ut som
 ```
