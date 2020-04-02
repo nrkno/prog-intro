@@ -21,7 +21,7 @@ Lag et program som reverserer en liste uten å bruke `list.reverse()`
 ## Liste med tall tall
  
 Lag et program med en variabel `tall` som lager en liste som inneholder `tall`, `tall` ganger, og printer ut lista. 
-For eksempel hvis tallet er 7, skrives det ut `[7, 7, 7, 7, 7, 7, 7]`. Test at programmer virker for ulike verdier av `tall`.
+For eksempel hvis tallet er 7, skrives det ut `[7, 7, 7, 7, 7, 7, 7]`. Test at programmet virker for ulike verdier av `tall`.
 
 ## Par av lister
  
@@ -68,7 +68,7 @@ Lag et program som tar utgangspunkt i en streng, feks `tekst = 'blomsten er gul'
 * Se at funksjonen for å finne lengden til en liste også virker for strengen
 * Lag en for-løkke som looper gjennom strengen og printer ut alle tegnene på hver sin linje
 * Bruke slice på samme måte som for lister til å hente ut ordet `gul` fra strengen, og bokstaven `r`
-* Lag en ny streng som er som `tekst`, bare at setningen har stor forbokstav og punktum til slutt
+* Bruk blant annet slice til å lage en ny streng som er som `tekst`, bare at setningen har stor forbokstav og punktum til slutt
 
 
 
