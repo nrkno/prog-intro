@@ -12,7 +12,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk, og vi vil 
 | 3. Introducing lists | [Uke3](Uke3) | 25.02 Klasserom 1 | 26.02 Embla |
 | 4. Working with lists | [Uke4](Uke4) | 03.03 Klasserom 2 | 04.03 Embla |
 | Repetisjon | [Uke5 Repetisjon](Uke5-Repetisjon) | 10.03 Klasserom 1 | 11.03 Embla |
-| 5. If statements| | 17.03 Klasserom 1 | 18.03 Embla | 
+| 5. If statements| [Uke6](Uke6) | 17.03 Klasserom 1 | 18.03 Embla | 
 | 6. Dictionaries | | 24.03 Klasserom 1 | 25.03 Embla |
 | Repetisjon | | 31.03 Klasserom 1 | 01.04 Embla |
 | 7. User input & while loops | | 14.04 Klasserom 1 | 15.04 Embla |
