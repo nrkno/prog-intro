@@ -13,7 +13,7 @@ Vi lærer grunnleggende programmering ved å bruke Python som språk, og vi vil 
 | 4. Working with lists | [Uke4](Uke4) | 03.03 Klasserom 2 | 04.03 Embla |
 | Repetisjon | [Uke5 Repetisjon](Uke5-Repetisjon) | 10.03 Klasserom 1 | 11.03 Teams |
 | 5. If statements| [Uke6](Uke6) | 14.04 Teams | | 
-| 6. Dictionaries | | 21.04 Teams | |
+| 6. Dictionaries | [Uke7](Uke7) | 21.04 Teams | |
 | Repetisjon | | 28.04 Teams |  |
 | 7. User input & while loops | | 05.05 Teams | |
 | 8. Functions | | 12.05 Teams | |
