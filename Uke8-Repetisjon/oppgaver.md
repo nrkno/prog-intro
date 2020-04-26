@@ -106,3 +106,17 @@ Hent ut deltakerne i programmet fra "contributors", dette er en liste som inneho
 }
 ```
 Skriv ut en linje for hver deltaker i programmet på formen `<navn> er <rolle> i programmet`
+
+## Forekommelse av strenger
+
+Lag et program som har en tekststreng som kan være 
+
+`
+Norsk rikskringkasting AS, i dagligtale og markedsføring mest kjent som NRK, er et norsk statseid kringkastingsselskap som tilbyr medieinnhold på radio, TV, strømmetjeneste og internett. NRK bygger på prinsippene til en offentlig allmennkringkaster etter samme modell som BBC, og er medlem av Den europeiske kringkastingsunion.
+`
+
+1. Finn ut av hvor mange ganger i teksten det er en stor "N". Du skal ikke bruke Python sin innebygde count()-funksjon.
+2. Gjør slik at sjekken ikke bryr seg om store og små bokstaver, og sjekk hvor mange ganger både stor og liten n forekommer i teksten.
+3. Sjekk så hvor mange ganger "NRK" forekommer i teksten.
+
+
