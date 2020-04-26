@@ -15,6 +15,7 @@ den ut. Du skal ikke bruke Python sin innebygde min-funksjon.
 2. Bruk en for-løkke og en if-setning for å finne den største verdien og skriv
 den ut. Du skal ikke bruke Python sin innebygde max-funksjon.
 3. Bruk en for-løkke for å finne summen av alle tallene i listen og print ut.
+4. (Bonus) Finn gjennomsnittet av tallene.
 
 ## Opphøyd i annen
 Velg et tall (for eksempel 10) og lag en dictionary hvor tallene 1 til tallet du har valgt (for eksempel 1 til 10) er nøkkel, og tallet opphøyd i annen er value. Eksempel på dictionary:
