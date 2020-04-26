@@ -6,6 +6,15 @@ Lag et program som løper gjennom en liste og lager en ny liste som er som den o
 
 For eksempel skal programmet med lista `[1, 4, 7, 5, 8, 3, 4, 5, 2, 1, 3]` skrive ut `[1, 4, 7, 5, 8, 3, 2]`
 
+## Minimum, maksimum og sum
+Anta at du har en liste med følgende verdier:
+liste = [-34, 2, -24, 4, 23, -45, 5, 7, 35, 3]
+1. Bruk en for-løkke og en if-setning for å finne den minste verdien og skriv
+den ut. Du skal ikke bruke Python sin innebygde min-funksjon.
+2. Bruk en for-løkke og en if-setning for å finne den største verdien og skriv
+den ut. Du skal ikke bruke Python sin innebygde max-funksjon.
+3. Bruk en for-løkke for å finne summen av alle tallene i listen og print ut.
+
 ## FizzBuzz
 
 Basert på en barnelek og en populær programmeringsoppgave ([Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz))
