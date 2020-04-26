@@ -8,12 +8,18 @@ For eksempel skal programmet med lista `[1, 4, 7, 5, 8, 3, 4, 5, 2, 1, 3]` skriv
 
 ## Minimum, maksimum og sum
 Anta at du har en liste med følgende verdier:
-liste = [-34, 2, -24, 4, 23, -45, 5, 7, 35, 3]
+
+`liste = [-34, 2, -24, 4, 23, -45, 5, 7, 35, 3]`
 1. Bruk en for-løkke og en if-setning for å finne den minste verdien og skriv
 den ut. Du skal ikke bruke Python sin innebygde min-funksjon.
 2. Bruk en for-løkke og en if-setning for å finne den største verdien og skriv
 den ut. Du skal ikke bruke Python sin innebygde max-funksjon.
 3. Bruk en for-løkke for å finne summen av alle tallene i listen og print ut.
+
+## Opphøyd i annen
+Velg et tall (for eksempel 10) og lag en dictionary hvor tallene 1 til tallet du har valgt (for eksempel 1 til 10) er nøkkel, og tallet opphøyd i annen er value. Eksempel på dictionary:
+
+`{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}`
 
 ## FizzBuzz
 
