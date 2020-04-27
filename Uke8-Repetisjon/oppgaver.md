@@ -107,7 +107,7 @@ Hent ut deltakerne i programmet fra "contributors", dette er en liste som inneho
 ```
 Skriv ut en linje for hver deltaker i programmet på formen `<navn> er <rolle> i programmet`
 
-## Forekommelse av strenger
+## Forekomst av strenger
 
 Lag et program som har en tekststreng som kan være 
 
