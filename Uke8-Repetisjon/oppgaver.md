@@ -38,7 +38,7 @@ Gå gjennom tall fra 1 til 100 og skriv ut etter følgende regler:
 
 ## Nytt på nytt
 
-Lag et program som inneholder følgende dictionary med informasjon om fredagens "Nytt på nytt":
+Start med å kopiere følgende dictionary med informasjon om fredagens "Nytt på nytt" inn i programmet ditt:
 
 ```
 program = {
