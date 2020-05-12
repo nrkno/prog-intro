@@ -37,4 +37,12 @@ vis_hilsen("Oslo", 33, "Preben")
 ```
 * Hvordan kunne `vis_hilsen` vært kalt med keyword arguments? Har rekkefølge noe å si når man benytter seg av keywords arguments?
 
+## Oppgave 5
+Anta at vi har følgende funksjon;
+```
+def min_sum(a, b):
+    return a + b
+```
+Denne funksjonen kan kun brukes for å legge sammen to tall. Endre funksjonen `min_sum` slik at den tar i mot vilkårlig antall elementer av tall i stedet for ved å bruke * foran parameteret i funksjonen. 
+
 
