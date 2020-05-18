@@ -1,3 +1,15 @@
+I Noen av oppgavene under trenger du å få tak i tilfeldig tall i et gitt intervall. Det kan gjøres ved å importere Pythons random-bibliotek ved å inkludere følgende linje
+```
+import random
+```
+Da får man tilgang til mange slags funksjoner, de to vi kan få brukt for er `randint` og `randrange` som gir tilfeldig tall mellom start og slutt-verdier, forskjellen på de er at `randint`tar med slutt-tallet i trekning, mens `randrange`er som andre range-funksjoner vi har sett på som ikke tar med slutt-verdien
+```
+random.randrange(1, 3)  # Mulige resultater: 1,2
+random.randint(1, 3)    # Mulige resultater:  1,2,3
+```
+
+
+
 # Passordgenerator
 
 Lag et program som genererer tilfeldige passord etter følgende regler:
