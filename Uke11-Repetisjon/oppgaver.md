@@ -8,6 +8,15 @@ random.randrange(1, 3)  # Mulige resultater: 1,2
 random.randint(1, 3)    # Mulige resultater:  1,2,3
 ```
 
+# Yatzy
+
+## Et kast
+Lag en funksjon som tar inn et tall n og returnerer liste av n tilfeldig trekte tall mellom 1 og 6. 
+Hvis n er 5 representerer det et "nytt" kast i Yatzy, n kan være lavere enn 5 når man er inne i en runde og har spart noen terninger.
+
+## Spare på en verdi
+
+## En runde
 
 
 # Passordgenerator
