@@ -6,10 +6,10 @@ Lag en funksjon `en_mer` som tar inn et tall `n` og returnerer et tall som er é
 
 Noen eksempler: 
 
-en_mer(0) => 1
-en_mer(1) => 2
-en_mer(2) => 3
-en_mer(-1) => 0
+* en_mer(0) => 1
+* en_mer(1) => 2
+* en_mer(2) => 3
+* en_mer(-1) => 0
 
 Hvordan kan du bruke funksjonen `en_mer` til å lage et tall som er 3 større? 5 større?
 
@@ -19,10 +19,10 @@ Lag en funksjon `dobbel` som tar inn et tall `n` og returnerer et tall som er de
 
 Noen eksempler:
 
-dobbel(0) => 0
-dobbel(1) => 2
-dobbel(2) => 4
-dobbel(3) => 3
+* dobbel(0) => 0
+* dobbel(1) => 2
+* dobbel(2) => 4
+* dobbel(3) => 3
 
 Kan du implementere `dobbel_med_en_mer` som gir samme svar som `dobbel`, men bruker funksjonen `en_mer` istedenfor addition eller multiplikasjon?
 
@@ -32,10 +32,10 @@ Lag en funksjon `bare_positive` som tar inn en liste med tall og returnerer en l
 
 Noen eksempler: 
 
-bare_positive([1, 0, -34, 278, 7]) => []
-bare_positive([1, 2, 3]) => [1, 2, 3]
-bare_positive([-1, -2, -3]) => []
-bare_positive([0, 1, -2, 3]) => [1, 3]
+* bare_positive([1, 0, -34, 278, 7]) => []
+* bare_positive([1, 2, 3]) => [1, 2, 3]
+* bare_positive([-1, -2, -3]) => []
+* bare_positive([0, 1, -2, 3]) => [1, 3]
 
 ## Velg programmer
 
